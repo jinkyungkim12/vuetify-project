@@ -29,7 +29,7 @@
                 <v-col>
                     <v-btn color="secondary">
                         button
-                    </v-btn>
+                    </v-btn> 
                 </v-col>
                 <v-col>
                     <v-btn color="error">
