@@ -111,6 +111,7 @@ export default {
       { title: 'test', icon: 'mdi-archive', to: '/test' },
       { title: 'test2', icon: 'mdi-archive', to: '/test2' },
       { title: 'test3', icon: 'mdi-archive', to: '/test3' },
+      { title: 'test4', icon: 'mdi-archive', to: '/test4' },
     ],
   }),
 }

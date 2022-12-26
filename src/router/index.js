@@ -11,6 +11,7 @@ import ProductList from '../views/page/ProductList.vue'
 import test from '../views/test/test.vue'
 import test2 from '../views/test/test2.vue'
 import test3 from '../views/test/test3.vue'
+import test4 from '../views/test/test4.vue'
 import DefaultLayout from '@/layouts/default/index.vue'
 import MemberLayout from '@/layouts/member/index1.vue'
 import PageLayout from '@/layouts/page/index2.vue' 
@@ -62,6 +63,11 @@ const routes = [
         path: '/test3',
         name: 'test3',
         component: test3
+      },
+      {
+        path: '/test4',
+        name: 'test4',
+        component: test4
       },
     ]
   },
