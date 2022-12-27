@@ -107,11 +107,13 @@ export default {
       { title: 'table', icon: 'mdi-help-box', to: '/pracTable' },
       { title: 'Sign In', icon: 'mdi-account-badge-outline', to: '/member/sign-in' },
       { title: 'Sign Up', icon: 'mdi-account-plus-outline', to: '/member/sign-up' },
+      { title: 'testPage', icon: 'mdi-account-plus-outline', to: '/member/test-page' },
       { title: 'Product List', icon: 'mdi-alpha-p', to: '/page/productList' },
       { title: 'test', icon: 'mdi-archive', to: '/test' },
       { title: 'test2', icon: 'mdi-archive', to: '/test2' },
       { title: 'test3', icon: 'mdi-archive', to: '/test3' },
       { title: 'test4', icon: 'mdi-archive', to: '/test4' },
+      { title: 'test5', icon: 'mdi-archive', to: '/test5' },
     ],
   }),
 }

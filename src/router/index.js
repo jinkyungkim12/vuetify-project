@@ -7,11 +7,13 @@ import Prac_breakPoint from '../views/PracBreakPoint.vue'
 import PracTable from '../views/PracTable.vue'
 import SignIn from '../views/member/SignIn.vue'
 import SignUp from '../views/member/SignUp.vue'
+import TestPage from '../views/member/testPage.vue'
 import ProductList from '../views/page/ProductList.vue'
 import test from '../views/test/test.vue'
 import test2 from '../views/test/test2.vue'
 import test3 from '../views/test/test3.vue'
 import test4 from '../views/test/test4.vue'
+import test5 from '../views/test/test5.vue'
 import DefaultLayout from '@/layouts/default/index.vue'
 import MemberLayout from '@/layouts/member/index1.vue'
 import PageLayout from '@/layouts/page/index2.vue' 
@@ -69,6 +71,11 @@ const routes = [
         name: 'test4',
         component: test4
       },
+      {
+        path: '/test5',
+        name: 'test5',
+        component: test5
+      },
     ]
   },
   {
@@ -84,6 +91,11 @@ const routes = [
         path: 'sign-up',
         name: 'SignUp',
         component: SignUp
+      },
+      {
+        path: 'test-page',
+        name: 'TestPage',
+        component: TestPage
       },
     ]
   },
