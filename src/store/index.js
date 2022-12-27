@@ -73,7 +73,8 @@ export default new Vuex.Store({
     logout({ commit }) {
       commit("logout")
       router.push({ name: "home"})
-    }
+    },
+      
   },
   modules: {
   }
